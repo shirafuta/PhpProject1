@@ -36,16 +36,7 @@ and open the template in the editor.
             }else{
                 echo "ERROR".mysqli_error($con);
             }
-                            
-            //if successfullly insert data into database,display message 'Successful'
-            /*if($result){
-                echo "Successful";
-                echo "<br>";
-                echo "<a href=form.php>戻る</a>";
-            }
-            else{
-                echo "ERROR";
-            }*/
+            
             ?>
             <?php
             echo "<br><br><br>";
